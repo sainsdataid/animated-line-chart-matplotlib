@@ -114,7 +114,7 @@ def update(frame):
 
 #  setup animation
 ani = FuncAnimation(
-    fig, update, frames=len(stocks), interval=80, blit=True, repeat=False
+    fig, update, frames=len(stocks), interval=80, blit=True
 )
 
 ## directly display the animation in dialog
